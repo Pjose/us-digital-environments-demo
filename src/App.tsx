@@ -292,7 +292,7 @@ function SocialProofBanner() {
           rel="noopener noreferrer"
           className="flex items-center gap-2 group"
         >
-          <img src="yelp.png" alt="Yelp logo" className="w-4 h-4 flex-shrink-0" />
+          <img src={yelpIcon} alt="Yelp logo" className="w-4 h-4 flex-shrink-0" />
           <span className="text-gray-400 text-xs hidden md:block" style={{ fontFamily: '"Geist:Medium"' }}>Yelp</span>
           <div className="flex gap-0.5">
             {[1,2,3,4,5].map(i => (
